@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
 commonResults/
+bert_score/default/
 generated_data_*/
-bert_score/
+
