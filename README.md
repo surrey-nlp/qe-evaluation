@@ -20,3 +20,13 @@ Please use the following citation while citing this work:
 ```latex
 
 ```
+
+For using the WMT Data provided here, please cite the following paper:
+```latex
+
+```
+
+For using TranQuest-based models, please cite the following paper:
+```latex
+
+```
