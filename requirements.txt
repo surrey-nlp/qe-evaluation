@@ -1,0 +1,16 @@
+transquest
+nlpaug
+nltk
+numpy
+requests
+nlpaug
+colorama
+Pygments==2.0
+sphinx
+jupyter
+spacy
+pandas
+plotly
+torch
+sentence-transformers
+datasets
