@@ -68,7 +68,12 @@ Please use the following citation while citing this work:
 
 For using the WMT Data provided here, please cite the following paper:
 ```latex
-
+@article{fomicheva2020mlqepe,
+    title={{MLQE-PE}: A Multilingual Quality Estimation and Post-Editing Dataset}, 
+    author={Marina Fomicheva and Shuo Sun and Erick Fonseca and Fr\'ed\'eric Blain and Vishrav Chaudhary and Francisco Guzm\'an and Nina Lopatina and Lucia Specia and Andr\'e F.~T.~Martins},
+    year={2020},
+    journal={arXiv preprint arXiv:2010.04480}
+}
 ```
 
 For using TranQuest-based models, please cite the following paper:
