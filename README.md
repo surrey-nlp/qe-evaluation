@@ -12,6 +12,25 @@ and then (to activate the environment):
 ```bash
 conda activate mtqe
 ```
+### Alternative (to Step 1)
+
+If you are not an Anaconda user, please consider creating a new virtual environment (Python > 3.7.0). You can install 'virtualenv' with:
+
+```bash
+pip install virtualenv
+```
+
+then create a new virtual environment using:
+
+```bash
+python3 -m venv mtqe
+```
+
+You should be able to activate this vitual environment using:
+
+```bash
+source mtqe/bin/activate
+```
 
 ### Step 2 - Cloning the repository
 
@@ -29,7 +48,7 @@ python -m spacy download en_core_web_sm
 
 ## Usage
 
-You can use the following command to initate jupyter notebook in your browser. 
+You can use the following command to initate a Jupyter Notebook in your browser. 
 ```bash
 jupyter-notebook
 ```
