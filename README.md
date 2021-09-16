@@ -78,5 +78,11 @@ For using the WMT Data provided here, please cite the following paper:
 
 For using TranQuest-based models, please cite the following paper:
 ```latex
+@InProceedings{transquest:2020a,
+author = {Ranasinghe, Tharindu and Orasan, Constantin and Mitkov, Ruslan},
+title = {TransQuest: Translation Quality Estimation with Cross-lingual Transformers},
+booktitle = {Proceedings of the 28th International Conference on Computational Linguistics},
+year = {2020}
+}
 
 ```
