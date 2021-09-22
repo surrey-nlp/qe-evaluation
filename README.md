@@ -55,9 +55,11 @@ jupyter-notebook
 
 Please open the following notebooks to perform the perturbations, obtain results for all language pairs, and then obtain system rankings as described in the paper.
 
-* AllTransQuestAllLangs.ipynb contains the code for replicating results from all three TransQuest-based models, for all the langauge pairs involved.
-* UnsupervisedAllLangs.ipynb contains the code for replicating results using the Unsupervised method, for all the language pairs involved.
-* getPearsonandRanking.ipynb contains the code for replicating results obtained using Pearson correlation, and ranking the systems based on our proposed method.
+* [1] AllTransQuestAllLangs.ipynb contains the code for replicating results from all three TransQuest-based models, for all the langauge pairs involved.
+* [2] UnsupervisedAllLangs.ipynb contains the code for replicating results using the Unsupervised method, for all the language pairs involved.
+* [3] getPearsonandRanking.ipynb contains the code for replicating results obtained using Pearson correlation, and ranking the systems based on our proposed method.
+
+NOTE: The code in [3] expect files generated from [1] and [2] for all the language pairs. Please execute the code for all systems, and all the language pairs before moving on to [3].
 
 ## Citing
 Please use the following citation while citing this work:
