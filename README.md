@@ -57,7 +57,7 @@ Please open the following notebooks to perform the perturbations, obtain results
 
 * [1] AllTransQuestAllLangs.ipynb contains the code for replicating results from all three TransQuest-based models, for all the langauge pairs involved.
 * [2] UnsupervisedAllLangs.ipynb contains the code for replicating results using the Unsupervised method, for all the language pairs involved.
-* [3] getPearsonandRanking.ipynb contains the code for replicating results obtained using Pearson correlation, and ranking the systems based on our proposed method.
+* [3] getPearsonandRanking.ipynb contains the code for replicating results obtained using Pearson correlation, and ranking all the systems based on our proposed method.
 
 NOTE: The code in [3] expect files generated from [1] and [2] for all the language pairs. Please execute the code for all systems, and all the language pairs before moving on to [3].
 
@@ -65,7 +65,14 @@ NOTE: The code in [3] expect files generated from [1] and [2] for all the langua
 Please use the following citation while citing this work:
 
 ```latex
-
+@misc{kanojia2021pushing,
+      title={Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation}, 
+      author={Diptesh Kanojia and Marina Fomicheva and Tharindu Ranasinghe and Frédéric Blain and Constantin Orăsan and Lucia Specia},
+      year={2021},
+      eprint={2109.10859},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 For using the WMT Data provided here, please cite the following paper:
