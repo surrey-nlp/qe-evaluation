@@ -65,28 +65,42 @@ NOTE: The code in [3] expect files generated from [1] and [2] for all the langua
 Please use the following citation while citing this work:
 
 ```latex
-@misc{kanojia2021pushing,
-      title={Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation}, 
-      author={Diptesh Kanojia and Marina Fomicheva and Tharindu Ranasinghe and Frédéric Blain and Constantin Orăsan and Lucia Specia},
-      year={2021},
-      eprint={2109.10859},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+
+@inproceedings{kanojia-etal-2021-pushing,
+    title = "Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation",
+    author = "Kanojia, Diptesh  and
+      Fomicheva, Marina  and
+      Ranasinghe, Tharindu  and
+      Blain, Fr{\'e}d{\'e}ric  and
+      Or{\u{a}}san, Constantin  and
+      Specia, Lucia",
+    booktitle = "Proceedings of the Sixth Conference on Machine Translation",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.wmt-1.67",
+    pages = "625--638",
+    abstract = "Current Machine Translation (MT) systems achieve very good results on a growing variety of language pairs and datasets. However, they are known to produce fluent translation outputs that can contain important meaning errors, thus undermining their reliability in practice. Quality Estimation (QE) is the task of automatically assessing the performance of MT systems at test time. Thus, in order to be useful, QE systems should be able to detect such errors. However, this ability is yet to be tested in the current evaluation practices, where QE systems are assessed only in terms of their correlation with human judgements. In this work, we bridge this gap by proposing a general methodology for adversarial testing of QE for MT. First, we show that despite a high correlation with human judgements achieved by the recent SOTA, certain types of meaning errors are still problematic for QE to detect. Second, we show that on average, the ability of a given model to discriminate between meaning-preserving and meaning-altering perturbations is predictive of its overall performance, thus potentially allowing for comparing QE systems without relying on manual quality annotation.",
 }
+
 ```
 
 For using the WMT Data provided here, please cite the following paper:
 ```latex
+
 @article{fomicheva2020mlqepe,
     title={{MLQE-PE}: A Multilingual Quality Estimation and Post-Editing Dataset}, 
     author={Marina Fomicheva and Shuo Sun and Erick Fonseca and Fr\'ed\'eric Blain and Vishrav Chaudhary and Francisco Guzm\'an and Nina Lopatina and Lucia Specia and Andr\'e F.~T.~Martins},
     year={2020},
     journal={arXiv preprint arXiv:2010.04480}
 }
+
 ```
 
 For using TranQuest-based models, please cite the following paper:
 ```latex
+
 @InProceedings{transquest:2020a,
 author = {Ranasinghe, Tharindu and Orasan, Constantin and Mitkov, Ruslan},
 title = {TransQuest: Translation Quality Estimation with Cross-lingual Transformers},
