@@ -86,7 +86,7 @@ Please use the following citation while citing this work:
 
 ```
 
-For using the WMT Data provided here, please cite the following paper:
+For using the [WMT Data](https://github.com/sheffieldnlp/mlqe-pe) provided here, please cite the following paper:
 ```latex
 
 @article{fomicheva2020mlqepe,
