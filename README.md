@@ -1,4 +1,15 @@
+
+[![GitHub issues](https://img.shields.io/github/issues/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation/issues)
+[![GitHub forks](https://img.shields.io/github/forks/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation/network)
+[![GitHub stars](https://img.shields.io/github/stars/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation/stargazers)
+[![GitHub license](https://img.shields.io/github/license/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation)
+[![Twitter Follow](https://img.shields.io/twitter/follow/CTS_Surrey?color=1DA1F2&logo=twitter&style=flat-square)](https://twitter.com/CTS_Surrey)
+[![Twitter Follow](https://img.shields.io/twitter/follow/PeopleCentredAI?color=1DA1F2&logo=twitter&style=flat-square)](https://twitter.com/PeopleCentredAI)
+
 # Adversarial Evaluation of Quality Estimation
+
+This repository contains the codebase for the WMT 2021 paper titled 'Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation'. 
+Please follow the installation steps detailed below to work with the code. If you use the code, please cite our work as shown below.
 
 ## Installation
 
@@ -61,11 +72,13 @@ Please open the following notebooks to perform the perturbations, obtain results
 
 NOTE: The code in [3] expect files generated from [1] and [2] for all the language pairs. Please execute the code for all systems, and all the language pairs before moving on to [3].
 
-## Citing
+## Citation
+
+Kanojia, Diptesh, Marina Fomicheva, Tharindu Ranasinghe, Frédéric Blain, Constantin Orašan, and Lucia Specia. "Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation." In Proceedings of the Sixth Conference on Machine Translation, pp. 625-638. 2021.
+
 Please use the following citation while citing this work:
 
 ```latex
-
 @inproceedings{kanojia-etal-2021-pushing,
     title = "Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation",
     author = "Kanojia, Diptesh  and
@@ -83,7 +96,6 @@ Please use the following citation while citing this work:
     pages = "625--638",
     abstract = "Current Machine Translation (MT) systems achieve very good results on a growing variety of language pairs and datasets. However, they are known to produce fluent translation outputs that can contain important meaning errors, thus undermining their reliability in practice. Quality Estimation (QE) is the task of automatically assessing the performance of MT systems at test time. Thus, in order to be useful, QE systems should be able to detect such errors. However, this ability is yet to be tested in the current evaluation practices, where QE systems are assessed only in terms of their correlation with human judgements. In this work, we bridge this gap by proposing a general methodology for adversarial testing of QE for MT. First, we show that despite a high correlation with human judgements achieved by the recent SOTA, certain types of meaning errors are still problematic for QE to detect. Second, we show that on average, the ability of a given model to discriminate between meaning-preserving and meaning-altering perturbations is predictive of its overall performance, thus potentially allowing for comparing QE systems without relying on manual quality annotation.",
 }
-
 ```
 
 For using the [WMT Data](https://github.com/sheffieldnlp/mlqe-pe) provided here, please cite the following paper:
