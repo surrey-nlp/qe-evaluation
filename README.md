@@ -1,3 +1,4 @@
+# Adversarial Evaluation of Quality Estimation
 
 [![GitHub issues](https://img.shields.io/github/issues/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation/issues)
 [![GitHub forks](https://img.shields.io/github/forks/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation/network)
@@ -5,8 +6,6 @@
 [![GitHub license](https://img.shields.io/github/license/surrey-nlp/qe-evaluation?style=flat-square)](https://github.com/surrey-nlp/qe-evaluation)
 [![Twitter Follow](https://img.shields.io/twitter/follow/CTS_Surrey?color=1DA1F2&logo=twitter&style=flat-square)](https://twitter.com/CTS_Surrey)
 [![Twitter Follow](https://img.shields.io/twitter/follow/PeopleCentredAI?color=1DA1F2&logo=twitter&style=flat-square)](https://twitter.com/PeopleCentredAI)
-
-# Adversarial Evaluation of Quality Estimation
 
 This repository contains the codebase for the WMT 2021 paper titled 'Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation'. 
 Please follow the installation steps detailed below to work with the code. If you use the code, please cite our work as shown below.
